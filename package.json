@@ -1,0 +1,30 @@
+{
+  "name": "intel8080-on",
+  "version": "1.0.0",
+  "description": "Intel8080 emulator completely written on js",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "tests": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retromorph/intel8080-on-js.git"
+  },
+  "keywords": [
+    "intel",
+    "intel8080",
+    "js",
+    "emulator"
+  ],
+  "author": "@retromorph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retromorph/intel8080-on-js/issues"
+  },
+  "homepage": "https://github.com/retromorph/intel8080-on-js#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0"
+  }
+}
