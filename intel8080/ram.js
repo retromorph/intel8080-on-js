@@ -27,15 +27,14 @@ let RAMItem = function () {
 
 };
 
-export default {
-    RAM: {
-        init() {
-            for (let i = 0b00000000; i < 0b11111111; i += 0b00000001) {
-                this[i] = new RAMItem();
-            }
-        },
-        get(address) {
-            return this[address];
+module.exports = {
+    init() {
+        for (let i = 0b00000000; i < 0b11111111; i += 0b00000001) {
+            this[i] = new RAMItem();
         }
+    },
+
+    get(address) {
+        return this[address];
     }
 }
